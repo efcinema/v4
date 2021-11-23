@@ -132,9 +132,7 @@ async def group(client, message):
         else:
             LuciferMoringstar=await client.send_message(
             chat_id = message.chat.id,
-            text=f"""
-👋Hey {message.from_user.mention} Check Your Spelling to Goole
- അല്ലെങ്കിൽ മൂവി റിലീസ് ആയിട്ടുണ്ടാവില്ല അതുകൊണ്ടാണ് മൂവി ലഭിക്കാത്തത്..""",
+            text=f""",
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
