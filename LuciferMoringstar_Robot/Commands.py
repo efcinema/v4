@@ -87,7 +87,7 @@ async def start(bot, message):
                         InlineKeyboardButton(' 🗂️OUR GROUP🗂️', url=f't.me/efcinema')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('🎖️OUR CHANNEL🎖️', url=f't.me/efmovieschannel')
                     ]
                     ]
                 await bot.send_cached_media(
