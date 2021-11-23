@@ -121,7 +121,7 @@ async def start(bot, message):
                     [
                         InlineKeyboardButton
                             (
-                                "🔎Search Here", switch_inline_query_current_chat=''
+                                "🎖️OUR CHANNEL🎖️", url="https://t.me/efmovieschannel"
                             ),
                         InlineKeyboardButton
                             (
